@@ -2,12 +2,12 @@
 General Assembly Capstone project aiming to predict the UK energy demand on the national grid using time series analysis.
 
 ## Table of Contents
-    * [Introduction](#Introduction)
-    * [Project Aims](#Project-Aims)
-    * [Data Collection & Handling](#Data-Collection-&-Handling)
-    * [Modelling Approach](#Modelling-Approach)
-    * [Results](#Results)
-    * [Python Libraries](#Python-Libraries)
+    * [Introduction](#introduction)
+    * [Project Aims](#project-aims)
+    * [Data Collection & Handling](#data-collection--handling)
+    * [Modelling Approach](#modelling-approach)
+    * [Results](#results)
+    * [Python Libraries](#python-libraries)
 
 
 ## Introduction 
