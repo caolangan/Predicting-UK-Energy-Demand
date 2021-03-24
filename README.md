@@ -5,11 +5,11 @@ General Assembly Capstone project aiming to predict the UK energy demand on the 
 * [Introduction](#introduction)
 * [Project Aims](#project-aims)
 * [Data Collection & Handling](#data-collection--handling)
-   * [Data Pre-Processing Steps Taken](data-pre-processing-steps-taken)
-   * [The Clean Demand Data](the-clean-demand-data)    
+   * [Data Pre-Processing Steps Taken](#data-pre-processing-steps-taken)
+   * [The Clean Demand Data](#the-clean-demand-data)    
 * [Modelling Approach](#modelling-approach)
-   * [Evaluating the Time Series](evaluating-the-time-series)
-   * [Fitting the SARIMA and SARIMAX Models](fitting-the-sarima-and-sarimax-models)
+   * [Evaluating the Time Series](#evaluating-the-time-series)
+   * [Fitting the SARIMA and SARIMAX Models](#fitting-the-sarima-and-sarimax-models)
 * [Python Libraries](#python-libraries) 
 
 
