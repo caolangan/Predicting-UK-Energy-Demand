@@ -11,6 +11,7 @@ General Assembly Capstone project aiming to predict the UK energy demand on the 
    * [Evaluating the Time Series](#evaluating-the-time-series)
    * [Fitting the SARIMA and SARIMAX Models](#fitting-the-sarima-and-sarimax-models)
 * [Results](#results) 
+* [Key Findings](#key-findings)
 * [Python Libraries](#python-libraries) 
 
 
@@ -80,6 +81,9 @@ The graph below shows the results of cross validating various SARIMA models, as 
 From these results the best parameters were chosen, and exogenous variables were added. Then the model was fitted. A fit of the model can be seen below. With RMSE score of 1105.09
 ![image](https://user-images.githubusercontent.com/74314773/112646385-4f553480-8e3f-11eb-801c-c4a88f4bdc48.png)
 
+## Key Findings
+The demand time series has strong seasonality at various degrees of granularity, which lends itself nicely to a SARIMA model. However the model in pyhton only allows for one degree of seasonality and thus one can try out the different seasonal patterns. 
+In the case of this project one can, with reasonable accuracy predict the hourly demand on the UK grid from relatively simple exogenous variables. Thus for future work, improvinging the model by adding more variables would be the first step. 
 ## Python Libraries
 The main Python libraries used in this project were: 
 * math
