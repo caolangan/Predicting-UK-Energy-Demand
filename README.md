@@ -38,6 +38,7 @@ Accurate predictions can enable:
  
 
 ## Data Collection & Handling
+[The Code](UK_Energy_Demand.ipynb)
 Historical national grid data (In this project data on the last 10 years was used) was collected from [a national grid tracker](https://www.gridwatch.templar.co.uk/). Where you can download the data as a csv file which contains timestamped data on the energy demand as well as the various energy sources i.e., Oil, Wind, nuclear, etc.
 
 In this project, I was predominately interested in the time series of the demand data and so decided to bid farewell to the other features for now, but they do show some interesting trends as you can see below and are well worth further investigation. (See image below)
@@ -55,6 +56,7 @@ Below is the resampled hourly demand time series with lines indicating the diffe
 ![image](https://user-images.githubusercontent.com/74314773/112237613-f0bf6900-8c3a-11eb-89ae-96b3e25d6488.png)
 
 ## Modelling Approach
+[The code](Demand_Modelling.ipynb)
 This section will outline the steps taken to generate and find the most accurate model to predict the demand. 
 ### Evaluating the Time Series
 Before any modelling can be done, the time series has to be evaluated as the models require the series to be stationary: 
@@ -84,6 +86,8 @@ From these results the best parameters were chosen, and exogenous variables were
 ## Key Findings
 The demand time series has strong seasonality at various degrees of granularity, which lends itself nicely to a SARIMA model. However the model in pyhton only allows for one degree of seasonality and thus one can try out the different seasonal patterns. 
 In the case of this project one can, with reasonable accuracy predict the hourly demand on the UK grid from relatively simple exogenous variables. Thus for future work, improvinging the model by adding more variables would be the first step. 
+
+
 ## Python Libraries
 The main Python libraries used in this project were: 
 * math
